@@ -10,7 +10,7 @@ the Claude session that built it. No copy. No paste. No lost reply.
 This repository is the tool: one HTML template, one builder, and the skill file
 that teaches an agent to run a round correctly.
 
-![status](https://img.shields.io/badge/template-v2.70-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![node](https://img.shields.io/badge/node-18%2B-brightgreen)
+![status](https://img.shields.io/badge/template-v2.71-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![node](https://img.shields.io/badge/node-18%2B-brightgreen)
 
 ---
 
@@ -47,7 +47,7 @@ You need Node 18 or newer, and Claude Code (or any agent that can read a skill
 folder and publish an Artifact).
 
 ```bash
-git clone https://github.com/<your-name>/question-sheet.git
+git clone https://github.com/Gambitnl/question-sheet.git
 cd question-sheet
 cp skill/categories.example.json skill/categories.json
 cp skill/gallery.example.json skill/gallery.json
@@ -125,7 +125,7 @@ about three questions before it starts work.
 Two components reach into one project's own systems. Both are optional and both
 are off until you configure them:
 
-- `tasks-bridge.cjs` writes to an [Agora](#) coordination daemon and a plan map.
+- `tasks-bridge.cjs` writes to an [Agora](https://github.com/Gambitnl/Aralia/tree/master/tools/agora) coordination daemon and a plan map.
   It needs a repository path. It has no default, so it fails with a clear
   message instead of writing to the wrong place.
 - `SKILL.md` carries a few sections about that same board. Read them as an

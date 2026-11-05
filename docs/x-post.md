@@ -23,7 +23,7 @@ sentence here. Best options, in order:
 > answers go back on their own. No copy-paste.
 >
 > Open source, MIT:
-> github.com/<you>/question-sheet
+> github.com/Gambitnl/question-sheet
 
 Characters: 268.
 
@@ -36,7 +36,7 @@ Characters: 268.
 >
 > Press Send → the page saves your answers into itself and wakes the agent.
 >
-> github.com/<you>/question-sheet
+> github.com/Gambitnl/question-sheet
 
 Characters: 262.
 
@@ -47,7 +47,7 @@ Characters: 262.
 > One page. Every open question. Real options with real trade-offs. One button
 > sends it all back.
 >
-> MIT licensed → github.com/<you>/question-sheet
+> MIT licensed → github.com/Gambitnl/question-sheet
 
 Characters: 211.
 
@@ -100,13 +100,12 @@ Characters: 211.
 >
 > MIT. Take it apart.
 >
-> github.com/<you>/question-sheet
+> github.com/Gambitnl/question-sheet
 
 ---
 
 ## Notes before you post
 
-- Replace `<you>` with the real GitHub handle in every draft.
 - The repository must be public first, or the link reads as broken.
 - Claim nothing the tool does not do. It is Claude-specific: the self-save and
   the wake-up are built on the Claude Artifact runtime. Someone will ask. The

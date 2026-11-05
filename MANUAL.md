@@ -193,7 +193,7 @@ option field. `SKILL.md` explains what each one is for and when to use it.
 Two rules worth stating here:
 
 - **Both versions are objects, not strings.** Pass
-  `{ "id": "v2.70", "at": "<ISO time>", "hash": "<stamp>" }`. Read all three
+  `{ "id": "v2.71", "at": "<ISO time>", "hash": "<stamp>" }`. Read all three
   from the template at build time. A hand-typed stamp is how a sheet claims a
   template it was not built from.
 - **An answer is never erased.** A question you retire keeps its answer in the
@@ -322,7 +322,7 @@ Optional, and off until you configure it. It turns a sheet's open task rows into
 real, tracked work:
 
 1. a feature on a plan map,
-2. a task on an [Agora](https://github.com/) coordination board,
+2. a task on an [Agora](https://github.com/Gambitnl/Aralia/tree/master/tools/agora) coordination board,
 3. the task id written back onto the row.
 
 ```bash

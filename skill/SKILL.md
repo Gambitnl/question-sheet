@@ -876,6 +876,11 @@ say so; do not guess a conversation.
 
 ### Turn the task list into real work (template 2.53)
 
+**Optional.** This section and the board steps in it need an Agora daemon and a
+plan map, which are part of one project, not of this tool. Without them, skip
+it: the build prints one warning and every other part works. See MANUAL.md,
+section 8.
+
 A sheet's task list IS its decisions turned into work. Put every open row on
 the Agora board, linked to the plan map:
 
