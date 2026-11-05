@@ -703,7 +703,7 @@ Three rules for you:
 ### The two boxes at the top
 
 The task list and the decisions render side by side, above everything, in folds
-that start SHUT. Each fold carries a two-sided toggle, **collapsed | expanded**.
+that start SHUT. Each fold carries a switch (2.71): knob left and gray means it opens **collapsed**, knob right and amber means it opens **expanded**, and one word beside it names the state.
 The side it points at is green, at full brightness, and 2px larger; the other
 side is red and dimmed. That side is how the box opens next time, on that
 browser only, and pressing it flips the box now as well. Opening the box by its
