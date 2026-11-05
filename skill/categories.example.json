@@ -1,0 +1,16 @@
+{
+  "_what": "THE SHARED TAG LIST. Every question sheet picks its tags from here, and from nowhere else. One shared list is what makes an overlap detectable: two sheets can only be seen to share a topic if they spell that topic the same way. A sheet that invents its own tag is invisible to the check.",
+  "_rule": "To add a tag: add it here first, with a real `covers` line, then use it. Never use a tag that is not in this file. If an existing tag nearly fits, use the existing tag.",
+  "_setup": "Copy this file to categories.json and replace the tags below with YOUR project's subjects. Keep the list short: 8 to 14 tags. A tag names a subject a reader thinks in, not a folder in the code.",
+  "_version": 1,
+  "categories": [
+    { "id": "product",  "label": "Product and scope",   "covers": "What the thing is for, who uses it, and which parts ship first." },
+    { "id": "look",     "label": "Look and feel",       "covers": "Visual design, layout, motion, and anything judged by eye." },
+    { "id": "data",     "label": "Data and schema",     "covers": "What is stored, its shape, where it comes from, and how it migrates." },
+    { "id": "ui",       "label": "User interface",      "covers": "Screens, controls, states, and the words on them." },
+    { "id": "platform", "label": "Platform and build",  "covers": "Runtime, packaging, deployment, and the development loop." },
+    { "id": "tooling",  "label": "Tooling",             "covers": "Scripts, generators, and the tools that make the work, not the product." },
+    { "id": "testing",  "label": "Testing and proof",   "covers": "What is checked, how a change is proved, and what counts as done." },
+    { "id": "planning", "label": "Planning",            "covers": "Priority, order of work, and how progress is tracked." }
+  ]
+}

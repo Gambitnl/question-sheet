@@ -1,0 +1,5 @@
+{
+ "note": "THE ARTIFACTS THAT ARE STILL PUBLISHED. Copy this file to gallery.json. overlap.cjs skips any saved sheet whose id is not listed here, so a deleted artifact stops counting as an open sheet. Rewrite the list from an Artifact listing before a build. Each id is the first 8 characters of the artifact id.",
+ "at": "1970-01-01T00:00:00.000Z",
+ "ids": []
+}

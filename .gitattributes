@@ -1,0 +1,8 @@
+# Keep every text file LF in the working copy, on every platform. The
+# template is one 260 KB HTML file; a line-ending flip would churn the whole
+# diff. The template content stamp normalizes CRLF to LF before it hashes, so
+# the stamp itself is safe either way.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary

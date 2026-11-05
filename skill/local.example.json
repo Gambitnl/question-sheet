@@ -1,0 +1,5 @@
+{
+  "_what": "HOST-LOCAL CONFIG. Copy this file to local.json and edit it. local.json is never committed.",
+  "_repo": "The repository that holds your Agora board and plan map. tasks-bridge.cjs writes into it. Leave it out if you do not run Agora: every other part of the tool works without it.",
+  "repo": "C:/path/to/your/project"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Import Tool Brief",
+  "eyebrow": "Data import · open questions",
+  "lede": "Answer what you care about. Skip the rest and I will pick a sane default. Press Send answers to Claude when you are done.",
+  "facts": ["4 source formats", "12,400 rows in the sample", "parser: src/import/parse.ts"],
+  "questions": [
+    {
+      "id": "q1",
+      "title": "What happens to a row the parser cannot read?",
+      "why": "The sample file holds 38 rows with a broken date. The choice here decides whether an import can ever half-succeed.",
+      "multi": false,
+      "options": [
+        { "label": "Stop the whole import", "note": "Safest. One bad row costs you the run." },
+        { "label": "Skip the row and log it", "note": "The import finishes. You must read the log to learn what you lost." },
+        { "label": "Import the row with the field left empty", "note": "Nothing is lost. Bad data reaches the database." }
+      ],
+      "noteLabel": "Notes",
+      "placeholder": "e.g. stop only when more than 1 percent of rows fail"
+    },
+    {
+      "id": "q2",
+      "title": "Which source formats must work on day one?",
+      "why": "Each format is about a day of work. Pick as many as you want.",
+      "multi": true,
+      "options": [
+        { "label": "CSV", "note": "The format your samples already use." },
+        { "label": "Excel", "note": "Needs a third-party reader and its own tests." },
+        { "label": "JSON", "note": "Cheapest to add. Nobody has asked for it yet." },
+        { "label": "Fixed-width text", "note": "The bank export. Needs a column map per source." }
+      ],
+      "noteLabel": "Notes",
+      "placeholder": ""
+    },
+    {
+      "id": "q3",
+      "title": "Anything I did not ask?",
+      "why": "",
+      "multi": false,
+      "options": [],
+      "noteLabel": "Free text",
+      "placeholder": "Constraints, deadlines, people to ask"
+    }
+  ]
+}

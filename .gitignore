@@ -1,0 +1,24 @@
+# HOST-LOCAL CONFIG AND STATE. These files name one machine, one project, or
+# one person's artifacts. Each has a tracked .example twin. Never commit them.
+skill/local.json
+skill/categories.json
+skill/gallery.json
+skill/overlap-notified.json
+
+# Built pages and local copies. A sheet is built into a work directory outside
+# this repository; this guard catches a build run inside it by mistake.
+*.html
+!skill/template.html
+copies/
+live-answers.json
+sheet.json
+
+# Scratch and proof. Screenshots and throwaway captures never belong in git.
+.scratch/
+*.png
+*.jpg
+*.webp
+
+node_modules/
+.DS_Store
+Thumbs.db
